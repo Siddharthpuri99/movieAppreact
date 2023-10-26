@@ -91,7 +91,7 @@ function App() {
       <div className="search">
         <input
           placeholder="Search for movies"
-          value={searchterm}
+         
           onChange={(e) => setSearchterm(e.target.value)}
         />
         <img src={SearchIcon} alt="search" onClick={() => searchmovie(searchterm)} />
